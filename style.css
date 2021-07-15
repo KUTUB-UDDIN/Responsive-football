@@ -3,14 +3,17 @@
     padding: 0;
 }
 body{
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    
 }
 .container{
-    width: 1440px;
+    width: 100%;
     height: 677px;
     background-color:#2025A0;
     display: flex;
- 
+     overflow-x: hidden;
+  
 }
   .img:hover{
     transform: scale(1.4);
@@ -58,7 +61,7 @@ body{
 .photo-album{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-     padding: 30px;
+    padding: 150px;
    
 }
 .photo-frame{
