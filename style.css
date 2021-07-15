@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif
+}
+.container{
+    width: 1440px;
+    height: 677px;
+    background-color:#2025A0;
+    display: flex;
+ 
+}
+  .img:hover{
+    transform: scale(1.4);
+    transition:transform 2s ease-in;
+ } 
+/* hedar style start .................. */
+#Conmebol-width h1{
+    margin-left: 200px;
+    margin-top: 240px;
+    width: 38%;
+    font-weight: 700;
+    font-size: 46px;
+    color: white;
+    
+}
+.img{
+    width: 554px;
+    height: 438px;
+     margin-top:115px;
+     margin-left: -200px; 
+    
+}
+
+
+.button-link{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#E02C6D;
+    color: white;
+    margin-left: 200PX;
+    margin-top: 15px;
+}
+.field{
+    margin-left: 2px;
+} 
+
+.button-link:hover{
+    transform: scale(1.5);
+    transition: transform 3s ease-in;   
+}
+/* >..........hedar end ................................ */
+
+
+/* >>>>> section-style>>>>>>>>>>>>>>>>>>>> */
+.photo-album{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     padding: 30px;
+   
+}
+.photo-frame{
+    box-shadow: 20px 20px 45px white;
+    border: 1px solid gray;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin: 20px;
+}
+/* .photo-frame:hover{
+    transform: scale(1.1);
+    transition: transform 2s ease-in;
+} */
+.photo-frame h1{
+    text-align: center;
+}
+.photo-frame p{
+    text-align: justify;
+    padding: 5px;
+}
+
+.image{
+    width: 95%;
+    padding:5px;
+    margin-left: 2px;
+} 
+
+
+/* >>>>> section-style-end >>>>>>>>>>>>>>>>>>>> */
+
+/* >>>>>>>>>>>>>>> baner-style-start>>>>>>>>>>>>>>> */
+.baner-size{
+    width: 1400px;
+    height: 677px;
+    /* background-color:#2025A0; */
+    display: flex;
+}
+#half-wdith h1{
+    margin-left: 238px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 268px;
+}
+
+#half-wdith p{
+    margin-left:  233px;
+   
+}
+
+.btn{
+    margin-left: 220px;
+}
+
+
+.baner-img{  
+    width: 64%;
+    margin-top: 166px;
+    margin-left: 100px;
+}
+.baner-img:hover {
+    transform: scale(1.2);
+    transition: transform 2s ease-in ;
+}
+    
+/* >>>>>>>>>>>>>>> baner-style-end>>>>>>>>>>>>>>> */
+/* foter */
+.div-logo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 100px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social-icon img{
+    width: 30px;
+    padding: 10px;
+
+    
+}
+.copywright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Dribbble-icon{
+    border-radius:50px ;
+       background-color: #d2dae2;
+    box-shadow: 2px 2px 2px white; 
+    margin: 10px; 
+}
+
+.Dribbble-icon:hover{
+    transform: scale(1.1);
+    
+    transition: transform 1s ease-in;
+}
+.Instagram-icon{
+    border-radius:50px ;
+       background-color: #d2dae2;
+    box-shadow: 2px 2px 2px white;
+    margin: 10px;
+}
+.Instagram-icon:hover{
+    transform: scale(1.1);
+    
+    transition: transform 1s ease-in;
+}
+
+.Twitter-icon{
+    border-radius:50px ;
+       background-color: #d2dae2;
+    box-shadow: 2px 2px 2px white;
+    margin: 10px;
+}
+.Twitter-icon:hover{
+    transform: scale(1.1);
+    
+    transition: transform 1s ease-in;
+}
+.Youtube-icon{
+    border-radius:50px ;
+       background-color: #d2dae2;
+    box-shadow: 2px 2px 2px white;
+    margin: 10px;
+
+}
+.Youtube-icon:hover{
+    transform: scale(1.1);
+    
+    transition: transform 1s ease-in;
+}
+
